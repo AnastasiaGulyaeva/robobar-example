@@ -14,10 +14,10 @@ pipeline {
                     sh 'yarn cy:ci'
                 }
             }
-        }
-        post {
-            always {
-                junit 'results/*.xml'
+            post {
+                always {
+                    junit 'results/*.xml'
+                }
             }
         }
     }
