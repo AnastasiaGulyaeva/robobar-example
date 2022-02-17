@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.0940" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-17T09:38:35" tests="0" file="cypress/integration/Robobar.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Robobar cart" timestamp="2022-02-17T09:38:35" tests="7" time="19.0940" failures="0">
+    <testcase name="Robobar cart User add one cola" time="6.5030" classname="User add one cola">
+    </testcase>
+    <testcase name="Robobar cart user add two colas" time="3.3010" classname="user add two colas">
+    </testcase>
+    <testcase name="Robobar cart user adds one beer" time="3.2400" classname="user adds one beer">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #1)" time="1.2620" classname="user buys several colas (example #1)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #2)" time="1.3010" classname="user buys several colas (example #2)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #3)" time="1.5430" classname="user buys several colas (example #3)">
+    </testcase>
+    <testcase name="Robobar cart user buys several colas (example #4)" time="1.9440" classname="user buys several colas (example #4)">
+    </testcase>
+  </testsuite>
+</testsuites>

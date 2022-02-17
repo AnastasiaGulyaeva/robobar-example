@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.8290" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-17T09:37:53" tests="0" file="cypress/integration/hola.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Hello Cypress" timestamp="2022-02-17T09:37:53" tests="6" time="13.8290" failures="0">
+    <testcase name="Hello Cypress Says hello" time="2.9670" classname="Says hello">
+    </testcase>
+    <testcase name="Hello Cypress Order a cola" time="2.7850" classname="Order a cola">
+    </testcase>
+    <testcase name="Hello Cypress Order two colas" time="1.6620" classname="Order two colas">
+    </testcase>
+    <testcase name="Hello Cypress Order one beer" time="1.7330" classname="Order one beer">
+    </testcase>
+    <testcase name="Hello Cypress Order one wine" time="1.8610" classname="Order one wine">
+    </testcase>
+    <testcase name="Hello Cypress Finish order cola" time="2.8210" classname="Finish order cola">
+    </testcase>
+  </testsuite>
+</testsuites>
