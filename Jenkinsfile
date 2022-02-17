@@ -7,12 +7,16 @@ pipeline {
     stages {
         stage('Open') {
             steps {
-                sh 'yarn install'
+                nodejs('node-14.18.2'){
+                    sh 'yarn install'
+                }
             }
         }
         stage('Test') {
             steps {
-                sh 'yarn cy:ci'
+                nodejs('node-14.18.2'){
+                    sh 'yarn cy:ci'
+                }
             }
             post {
                 always {
