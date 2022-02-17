@@ -2,6 +2,7 @@ pipeline {
     agent any
     options {
         ansiColor('xterm')
+        nodejs('node-14.18.2')
     }
     stages {
         stage('Open') {
